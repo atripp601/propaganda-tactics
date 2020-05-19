@@ -1,0 +1,94 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<xwikidoc version="1.3" reference="Contributor Info.How To Create Pages.How To Create An Article Page.WebHome" locale="">
+  <web>Contributor Info.How To Create Pages.How To Create An Article Page</web>
+  <name>WebHome</name>
+  <language/>
+  <defaultLanguage>en</defaultLanguage>
+  <translation>0</translation>
+  <creator>XWiki.atripp</creator>
+  <creationDate>1589378356000</creationDate>
+  <parent>Contributor Info.How To Create Pages.WebHome</parent>
+  <author>XWiki.atripp</author>
+  <contentAuthor>XWiki.atripp</contentAuthor>
+  <date>1589559679000</date>
+  <contentUpdateDate>1589378356000</contentUpdateDate>
+  <version>23.1</version>
+  <title>How To Create An Article Page</title>
+  <comment>Renamed back-links.</comment>
+  <minorEdit>false</minorEdit>
+  <syntaxId>xwiki/2.1</syntaxId>
+  <hidden>false</hidden>
+  <content>{{include document="Contributor Info.How To Create Pages.ReferenceDocuments.WebHome"/}}
+
+==== Create a new Article Page ====
+
+* Go to [[Articles.WebHome]] and click "Create"
+* Choose the PArticle (NOT Article) Template
+* If the article is about a web page, make the title exactly match the title of the webpage
+* if the article is a TV or radio transcript, the title should be something like "Hannity TV Show 01/20/2019"
+* Click "Create"
+* You should now be looking at your new page. Dont worry that it doesnt look right yet.
+
+==== Add Objects to your page ====
+
+* You are now going to add Objects to your page:
+** One "PArticle Class" object, containing information about the article (title, date, author, etc)
+** One "Article Overview" object, containing your high-level description of the article (e.g. "In this episode, Hannity covers immigration and the virus")
+** One or more "PQuote Class" objects, each consisting of:
+*** a quote from the article
+*** your response ("rebuttal") of the quote
+*** a list of one or more tactics that the quote uses.
+* Under the Edit menu, choose "Objects". 
+
+===== Add a "PArticle Class" object =====
+
+* In the "new object:" field, choose "PArticle Class" and click "Add".
+* Now fill in the fields with information about the article itself:
+** title: use the exact same as the title of this page.
+** externalURL: the URL of the external webpage (leave blank for transcripts). Copy/paste the URL from your web browser
+** description: short description of the article (e.g. "Hannity TV Show 01/20/2019")
+** articleType:
+** author: (If the author doesn't exist yet, create it first, press save, and refresh this page and it should not appear in the dropdown menu)
+** source: (If the source doesn't exist yet, create it first, press save, and refresh this page and it should not appear in the dropdown menu)
+** date: Date that the article was written or date the TV show aired. Date does not include a time.
+* Press "Save". Open this page in another tab to view it, so you don't have to keep going in and out of "edit mode". Every time you press "Save", go to the other tab and refresh the page.
+* At this point, verify that the "infobox" on the right of the page shows the proper article information.
+
+===== Add a "ArticleOverview Class" object =====
+
+* In the "new object:" field, choose "ArticleOverviewClass" and click "Add".
+* Now fill in the fields with information about the article itself:
+** description: eg. "In this episode, Hannity covers immigration and the virus". You can also give a general critique of the article (e.g. "Most of this episode is simply cheerleading")
+** select any tactics that apply to the overall article, but don't duplicate any that you'll be using later in specific quotes.
+* Press "Save" and verify that your Overview section displays properly.
+
+===== Add one or more "PQuoteClass" objects =====
+
+* You're going to add multiple "PQuoteClass" objects, with each one consisting of:
+** a direct quote from the article (e.g. "Obama said you could keep your doctor...")
+** your rebuttal (e.g. "what he clearly meant was that the ACA would not force you to change doctors, but your doctor could still retire or die")
+** one or more tactics.
+* In the "new object:" field, choose "PQuotesClass" and click "Add".
+** Now fill in the quote fields:
+*** quote: copy/paste from the original article.
+*** rebuttal: your response to the quote
+*** tactics: one or more tactics.
+** Press Save.
+** Continue adding more PQuoteClass objects until done.
+* Press "Save" and verify that your whole page displays properly.
+
+===== Cache the Article =====
+
+* You're going to cache the original article in case it disappears or moves.
+** Go to the original article and copy just the text of the article. You may have to include adds when you do this.
+** Go to [[Cached Articles.WebHome]] and click "Create"
+** Choose the "blank page" template.
+** The title of the new page MUST match the article title exactly.
+** Click "Create"
+** paste the article contents.
+** verify that the contents looks OK. The idea is just to save the article as text:
+*** it will have no real formating, just an occasional blank line
+*** remove any embedded articles or links that you see.
+*** replace any special character sequences that cause XWiki to display it differently (e.g. "--" causes "strikethrough text")--
+** Verify that the link from your new Article page to this Cached Article page works correctly.</content>
+</xwikidoc>

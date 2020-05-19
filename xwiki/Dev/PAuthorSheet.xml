@@ -1,0 +1,131 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<xwikidoc version="1.3" reference="Dev.PAuthorSheet" locale="">
+  <web>Dev</web>
+  <name>PAuthorSheet</name>
+  <language/>
+  <defaultLanguage>en</defaultLanguage>
+  <translation>0</translation>
+  <creator>XWiki.atripp</creator>
+  <creationDate>1588880029000</creationDate>
+  <parent>WebHome</parent>
+  <author>XWiki.atripp</author>
+  <contentAuthor>XWiki.atripp</contentAuthor>
+  <date>1589381263000</date>
+  <contentUpdateDate>1589379466000</contentUpdateDate>
+  <version>33.1</version>
+  <title>#if($doc.documentReference.name == 'PAuthorSheet')PAuthor Sheet#{else}$services.display.title($doc, {'displayerHint': 'default', 'outputSyntaxId': 'plain/1.0'})#end</title>
+  <comment/>
+  <minorEdit>false</minorEdit>
+  <syntaxId>xwiki/2.1</syntaxId>
+  <hidden>true</hidden>
+  <content>{{velocity}}&#xd;
+## You can modify this page to customize the presentation of your object.&#xd;
+## At first you should keep the default presentation and just save the document.&#xd;
+&#xd;
+#set($author = $doc.getObject('Dev.PAuthorClass'))&#xd;
+&#xd;
+(% id="top" style="width=100%; display: flex;"%)&#xd;
+(((&#xd;
+&#xd;
+(% id="left" style="" %)&#xd;
+(((= Description = $author.display('description', 'view')&#xd;
+&#xd;
+## Find Articles containing a PArticleClass instance with property author set to this authors name.&#xd;
+## see https://extensions.xwiki.org/xwiki/bin/view/Extension/Solr%20Search%20Query%20API#HExample2&#xd;
+#set ($authorname = $author.display('name', 'view'))&#xd;
+## see http://robertmarkbramprogrammer.blogspot.com/2010/09/how-to-escape-quotes-in-velocity.html&#xd;
+#set($Q = '"')&#xd;
+#set ($queryStatement = "property.Dev.PArticleClass.author:${Q}${authorname}${Q}")&#xd;
+#set ($query = $services.query.createQuery($queryStatement, 'solr'))&#xd;
+&#xd;
+## Only find things in the Articles space&#xd;
+#set ($discard = $query.bindValue('fq', 'fullname:Articles.*'))&#xd;
+#set ($searchResponse = $query.execute()[0])&#xd;
+&#xd;
+## Loop through all PArticleClass objects.&#xd;
+== Articles&#xd;
+|=Title&#xd;
+#foreach ($searchResult in $searchResponse.results)&#xd;
+  #set ($documentReference = $services.solr.resolveDocument($searchResult))&#xd;
+  #set ($d = $xwiki.getDocument($documentReference))&#xd;
+  #set ($title = $d.getObject('Dev.PArticleClass').title)&#xd;
+  |[[Articles.$title]]&#xd;
+#end&#xd;
+&#xd;
+## We keep a count of every tactic in every Article, both the ones in the ArticleOverview and in all ArticleQuotes.&#xd;
+#set ($frequencyMap = {})&#xd;
+#foreach ($searchResult in $searchResponse.results)&#xd;
+  ## result: $searchResult  class: $searchResult.class&#xd;
+  #set ($documentReference = $services.solr.resolveDocument($searchResult))&#xd;
+  #set ($d = $xwiki.getDocument($documentReference))&#xd;
+  ##&#xd;
+  ## Count up tactics in the ArticleOverview:&#xd;
+  #set ($overview = $d.getObject('Dev.ArticleOverviewClass'))&#xd;
+  #if ($overview)&#xd;
+    ## tactics is type com.xpn.xwiki.objects.ListProperty&#xd;
+    #set ($tactics = $overview.getProperty('tactics').getValue())&#xd;
+    #foreach ($tactic in $tactics)&#xd;
+       #set ($count = $frequencyMap.get($tactic))&#xd;
+       #if ($count)&#xd;
+         #set ($count = $count + 1)&#xd;
+       #else&#xd;
+         #set ($count = 1)&#xd;
+       #end&#xd;
+       #set ($discard = $frequencyMap.put($tactic, $count))&#xd;
+    #end&#xd;
+  #end&#xd;
+##&#xd;
+## Now add in the counts of tactics in every ArticleQuote:&#xd;
+  #set ($quotes = $d.getObjects('Dev.PQuoteClass'))&#xd;
+  #if ($quotes)&#xd;
+    #foreach ($quote in $quotes)&#xd;
+      ## TODO: include this loop, rather than copy-paste from above:&#xd;
+      #set ($tactics = $quote.getProperty('tactics').getValue())&#xd;
+      #foreach ($tactic in $tactics)&#xd;
+       #set ($count = $frequencyMap.get($tactic))&#xd;
+       #if ($count)&#xd;
+         #set ($count = $count + 1)&#xd;
+       #else&#xd;
+         #set ($count = 1)&#xd;
+       #end&#xd;
+       #set ($discard = $frequencyMap.put($tactic, $count))&#xd;
+      #end&#xd;
+    #end&#xd;
+  #end&#xd;
+#end&#xd;
+## Display the counts of tactics:&#xd;
+== Tactics&#xd;
+|=Tactic|=Count&#xd;
+#foreach ($entry in $frequencyMap.entrySet())&#xd;
+  |[[Tactics.$entry.getKey()]]|$entry.getValue()&#xd;
+#end&#xd;
+&#xd;
+## end of left&#xd;
+)))&#xd;
+&#xd;
+## start of infobox on right&#xd;
+(% id="infobox" style="flex: 0 0 300px" %)&#xd;
+(((&#xd;
+{{box}}&#xd;
+(% style="float:right; clear:right;" %)&#xd;
+|(% colspan="2" %) [[image:$author.display('imageURL', 'view')||width="100"]]&#xd;
+|Name:|$author.display('name', 'view')&#xd;
+#if ($author.getProperty('source').getValue() != "")&#xd;
+|Source:|[[Sources.$author.getProperty('source').getValue()]]&#xd;
+#end&#xd;
+#if ($author.getProperty('wikipediaURL').getValue() != "")&#xd;
+|Wikipedia:|[[$author.display('name', 'view')>>$author.display('wikipediaURL', 'view')]]&#xd;
+#end&#xd;
+#if ($author.getProperty('facebookURL').getValue() != "")&#xd;
+|Facebook:|[[$author.display('name', 'view')>>$author.display('facebookURL', 'view')]]&#xd;
+#end&#xd;
+{{/box}}&#xd;
+&#xd;
+)))&#xd;
+&#xd;
+&#xd;
+## end of top&#xd;
+)))&#xd;
+&#xd;
+{{/velocity}}</content>
+</xwikidoc>

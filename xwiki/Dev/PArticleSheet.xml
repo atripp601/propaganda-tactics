@@ -1,0 +1,74 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<xwikidoc version="1.3" reference="Dev.PArticleSheet" locale="">
+  <web>Dev</web>
+  <name>PArticleSheet</name>
+  <language/>
+  <defaultLanguage>en</defaultLanguage>
+  <translation>0</translation>
+  <creator>XWiki.atripp</creator>
+  <creationDate>1588879367000</creationDate>
+  <parent>WebHome</parent>
+  <author>XWiki.atripp</author>
+  <contentAuthor>XWiki.atripp</contentAuthor>
+  <date>1589395348000</date>
+  <contentUpdateDate>1589395348000</contentUpdateDate>
+  <version>27.1</version>
+  <title>#if($doc.documentReference.name == 'PArticleSheet')PArticle Sheet#{else}$services.display.title($doc, {'displayerHint': 'default', 'outputSyntaxId': 'plain/1.0'})#end</title>
+  <comment/>
+  <minorEdit>false</minorEdit>
+  <syntaxId>xwiki/2.1</syntaxId>
+  <hidden>true</hidden>
+  <content>{{include page="Dev/DisplayQuote"/}}&#xd;
+&#xd;
+{{velocity}}&#xd;
+## You can modify this page to customize the presentation of your object.&#xd;
+## At first you should keep the default presentation and just save the document.&#xd;
+#set($overview = $doc.getObject("Dev.ArticleOverviewClass"))&#xd;
+#set($article = $doc.getObject("Dev.PArticleClass"))&#xd;
+#set($title = $article.getProperty('title').getValue())&#xd;
+#set($author = $article.getProperty('author').getValue())&#xd;
+#set($source = $article.getProperty('source').getValue())&#xd;
+#set($quotes = $doc.getObjects("Dev.PQuoteClass"))&#xd;
+&#xd;
+## infobox in top right&#xd;
+(% style="float:right; margin: 0px; width=30px;" %)&#xd;
+(((&#xd;
+&#xd;
+{{box}}&#xd;
+|Source:|[[Sources.$source]]&#xd;
+|Author:|[[Authors.$author]]&#xd;
+|Type:|$article.display('articleType', 'view')&#xd;
+|Date:|$article.display('date', 'view')&#xd;
+|Original Article:|[[$article.display('title', 'view')>>$article.display('externalURL', 'view')]]&#xd;
+|Cached Article:|[[Cache>>Cached Articles.$title]]&#xd;
+&#xd;
+{{/box}}&#xd;
+)))&#xd;
+&#xd;
+&#xd;
+(((&#xd;
+#if ($overview)&#xd;
+== Overview ==&#xd;
+{{content syntax="xwiki/2.1"}}&#xd;
+$overview.display('overview', 'view')&#xd;
+{{/content}}&#xd;
+#end&#xd;
+&#xd;
+## tactics within the ArticleOverview:&#xd;
+  #foreach($tactic in $overview.getProperty('tactics').value)&#xd;
+  ## putting this in a group with the triple parens stops &lt;br> from appearing between them&#xd;
+  (((&#xd;
+    [[Tactics.$tactic]]&#xd;
+    )))&#xd;
+  #end&#xd;
+)))&#xd;
+&#xd;
+(((&#xd;
+== Quotes ==&#xd;
+#foreach($quote in $quotes)&#xd;
+ #displayQuote($quote)&#xd;
+#end&#xd;
+)))&#xd;
+&#xd;
+{{/velocity}}</content>
+</xwikidoc>

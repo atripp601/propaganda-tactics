@@ -1,0 +1,24 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<xwikidoc version="1.3" reference="Categories.WebHome" locale="">
+  <web>Categories</web>
+  <name>WebHome</name>
+  <language/>
+  <defaultLanguage>en</defaultLanguage>
+  <translation>0</translation>
+  <creator>XWiki.atripp</creator>
+  <creationDate>1589378433000</creationDate>
+  <parent>Main.WebHome</parent>
+  <author>XWiki.atripp</author>
+  <contentAuthor>XWiki.atripp</contentAuthor>
+  <date>1589386056000</date>
+  <contentUpdateDate>1589386056000</contentUpdateDate>
+  <version>5.1</version>
+  <title>Categories</title>
+  <comment/>
+  <minorEdit>false</minorEdit>
+  <syntaxId>xwiki/2.1</syntaxId>
+  <hidden>false</hidden>
+  <content>{{include page="Dev/CategoryMacros"/}}&#xd;
+&#xd;
+{{velocity}}#showCategoriesTable(){{/velocity}}</content>
+</xwikidoc>

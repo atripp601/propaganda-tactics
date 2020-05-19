@@ -1,0 +1,275 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package>
+  <infos>
+    <name>e12</name>
+    <description/>
+    <licence/>
+    <author>XWiki.atripp</author>
+    <version/>
+    <backupPack>false</backupPack>
+    <preserveVersion>false</preserveVersion>
+  </infos>
+  <files>
+    <file defaultAction="0" language="">About.WebHome</file>
+    <file defaultAction="0" language="">About.All About Propaganda Tactics.WebHome</file>
+    <file defaultAction="0" language="">Articles.WebHome</file>
+    <file defaultAction="0" language="">Articles.Another big Democratic loss And yet more complaints about a rigged system.WebHome</file>
+    <file defaultAction="0" language="">Articles.Do the Irish really want to repeal the right to live.WebHome</file>
+    <file defaultAction="0" language="">Articles.Elizabeth Warren might have actually made things worse with her DNA gambit.WebHome</file>
+    <file defaultAction="0" language="">Articles.Federal Rule Protects Nuns Stance on Obamacare Mandate.WebHome</file>
+    <file defaultAction="0" language="">Articles.For Once Im Grateful for Trump.WebHome</file>
+    <file defaultAction="0" language="">Articles.Hannity Show 2020-04-21.WebHome</file>
+    <file defaultAction="0" language="">Articles.Heartless Trump Blamed for Reopening Deaths.WebHome</file>
+    <file defaultAction="0" language="">Articles.Kamala Harris and the Implausibility of ‘Medicare-for-All’.WebHome</file>
+    <file defaultAction="0" language="">Articles.Kavanaugh hearing proves that politics is broken.WebHome</file>
+    <file defaultAction="0" language="">Articles.Medicare for all is an expensive wrecking ball.WebHome</file>
+    <file defaultAction="0" language="">Articles.Mueller should not get to decide whether Manafort is lying.WebHome</file>
+    <file defaultAction="0" language="">Articles.On Election Day lets stop trying to change the rules.WebHome</file>
+    <file defaultAction="0" language="">Articles.Our Nevermind Media.WebHome</file>
+    <file defaultAction="0" language="">Articles.Sarah Sanders Red Hen moment shows mob, media mentality.WebHome</file>
+    <file defaultAction="0" language="">Articles.The Dems Will Lose the House in 2020.WebHome</file>
+    <file defaultAction="0" language="">Articles.Think Medicare for All is a good idea Fly to LAX and call an Uber.WebHome</file>
+    <file defaultAction="0" language="">Articles.Why I voted to acquit President Trump.WebHome</file>
+    <file defaultAction="0" language="">Articles.Why the Left Is Consumed With Hate.WebHome</file>
+    <file defaultAction="0" language="">Authors.WebHome</file>
+    <file defaultAction="0" language="">Authors. Declan Ganley.WebHome</file>
+    <file defaultAction="0" language="">Authors.Aaron Blake.WebHome</file>
+    <file defaultAction="0" language="">Authors.Bret Stephens.WebHome</file>
+    <file defaultAction="0" language="">Authors.Chris Cillizza.WebHome</file>
+    <file defaultAction="0" language="">Authors.David Catron.WebHome</file>
+    <file defaultAction="0" language="">Authors.David Oscar Markus.WebHome</file>
+    <file defaultAction="0" language="">Authors.Dr Marc Siegel.WebHome</file>
+    <file defaultAction="0" language="">Authors.Grazie Pozo Christie.WebHome</file>
+    <file defaultAction="0" language="">Authors.Joe Ferullo.WebHome</file>
+    <file defaultAction="0" language="">Authors.Kristin Tate.WebHome</file>
+    <file defaultAction="0" language="">Authors.Kyle Smith.WebHome</file>
+    <file defaultAction="0" language="">Authors.Matt Schlapp.WebHome</file>
+    <file defaultAction="0" language="">Authors.Rich Lowry.WebHome</file>
+    <file defaultAction="0" language="">Authors.Rush Limbaugh.WebHome</file>
+    <file defaultAction="0" language="">Authors.Sean Hannity.WebHome</file>
+    <file defaultAction="0" language="">Authors.Shelby Steele.WebHome</file>
+    <file defaultAction="0" language="">Authors.Thom Tillis.WebHome</file>
+    <file defaultAction="0" language="">Cached Articles.WebHome</file>
+    <file defaultAction="0" language="">Cached Articles.Another big Democratic loss And yet more complaints about a rigged system.WebHome</file>
+    <file defaultAction="0" language="">Cached Articles.Do the Irish really want to repeal the right to live.WebHome</file>
+    <file defaultAction="0" language="">Cached Articles.Elizabeth Warren might have actually made things worse with her DNA gambit.WebHome</file>
+    <file defaultAction="0" language="">Cached Articles.Federal Rule Protects Nuns' Stance on Obamacare Mandate.WebHome</file>
+    <file defaultAction="0" language="">Cached Articles.For Once, Im Grateful for Trump.WebHome</file>
+    <file defaultAction="0" language="">Cached Articles.Hannity Show 2020-04-21.WebHome</file>
+    <file defaultAction="0" language="">Cached Articles.Heartless Trump Blamed for Reopening Deaths.WebHome</file>
+    <file defaultAction="0" language="">Cached Articles.Kamala Harris and the Implausibility of ‘Medicare-for-All.WebHome</file>
+    <file defaultAction="0" language="">Cached Articles.Kavanaugh hearing proves that politics is broken.WebHome</file>
+    <file defaultAction="0" language="">Cached Articles.Medicare for all is an expensive wrecking ball.WebHome</file>
+    <file defaultAction="0" language="">Cached Articles.Mueller should not get to decide whether Manafort is lying.WebHome</file>
+    <file defaultAction="0" language="">Cached Articles.On Election Day lets stop trying to change the rules.WebHome</file>
+    <file defaultAction="0" language="">Cached Articles.Our Nevermind Media.WebHome</file>
+    <file defaultAction="0" language="">Cached Articles.Sarah Sanders Red Hen moment shows mob, media mentality.WebHome</file>
+    <file defaultAction="0" language="">Cached Articles.The Dems Will Lose the House in 2020.WebHome</file>
+    <file defaultAction="0" language="">Cached Articles.Think Medicare for All is a good idea Fly to LAX and call an Uber.WebHome</file>
+    <file defaultAction="0" language="">Cached Articles.Why I voted to acquit President Trump.WebHome</file>
+    <file defaultAction="0" language="">Cached Articles.Why the Left Is Consumed With Hate.WebHome</file>
+    <file defaultAction="0" language="">Categories.WebHome</file>
+    <file defaultAction="0" language="">Categories.Bad Logic.WebHome</file>
+    <file defaultAction="0" language="">Categories.Complimenting The Authority.WebPreferences</file>
+    <file defaultAction="0" language="">Categories.Exaggeration.WebHome</file>
+    <file defaultAction="0" language="">Categories.Lie.WebHome</file>
+    <file defaultAction="0" language="">Categories.Making Things Up.WebHome</file>
+    <file defaultAction="0" language="">Categories.Misleading Wording.WebHome</file>
+    <file defaultAction="0" language="">Categories.Numbers Tricks.WebHome</file>
+    <file defaultAction="0" language="">Categories.Thats Not How It Works.WebHome</file>
+    <file defaultAction="0" language="">Categories.Undeserved Praise.WebHome</file>
+    <file defaultAction="0" language="">Categories.Unsupported Claim.WebHome</file>
+    <file defaultAction="0" language="">Contributor Info.WebHome</file>
+    <file defaultAction="0" language="">Contributor Info.WebPreferences</file>
+    <file defaultAction="0" language="">Contributor Info.Article Guidelines.WebHome</file>
+    <file defaultAction="0" language="">Contributor Info.Article pipeline.WebHome</file>
+    <file defaultAction="0" language="">Contributor Info.How To Create Pages.WebHome</file>
+    <file defaultAction="0" language="">Contributor Info.How To Create Pages.How TO Create An Author Page.WebHome</file>
+    <file defaultAction="0" language="">Contributor Info.How To Create Pages.How To Create A Source Page.WebHome</file>
+    <file defaultAction="0" language="">Contributor Info.How To Create Pages.How To Create An Article Page.WebHome</file>
+    <file defaultAction="0" language="">Contributor Info.How To Create Pages.How To Create a Category Page.WebHome</file>
+    <file defaultAction="0" language="">Contributor Info.How To Create Pages.How To Create a Tactic Page.WebHome</file>
+    <file defaultAction="0" language="">Contributor Info.How To Create Pages.Pages and Objects (read this first).WebHome</file>
+    <file defaultAction="0" language="">Contributor Info.How To Create Pages.ReferenceDocuments.WebHome</file>
+    <file defaultAction="0" language="">Contributor Info.Notes.WebHome</file>
+    <file defaultAction="0" language="">Contributor Info.TODO.WebHome</file>
+    <file defaultAction="0" language="">Dev.ArticleOverviewClass</file>
+    <file defaultAction="0" language="">Dev.PArticleClass</file>
+    <file defaultAction="0" language="">Dev.PArticleSheet</file>
+    <file defaultAction="0" language="">Dev.PArticleTemplate</file>
+    <file defaultAction="0" language="">Dev.PArticleTemplateProvider</file>
+    <file defaultAction="0" language="">Dev.PAuthorClass</file>
+    <file defaultAction="0" language="">Dev.PAuthorSheet</file>
+    <file defaultAction="0" language="">Dev.PAuthorTemplate</file>
+    <file defaultAction="0" language="">Dev.PAuthorTemplateProvider</file>
+    <file defaultAction="0" language="">Dev.PCategoryClass</file>
+    <file defaultAction="0" language="">Dev.PCategorySheet</file>
+    <file defaultAction="0" language="">Dev.PCategoryTemplate</file>
+    <file defaultAction="0" language="">Dev.PCategoryTemplateProvider</file>
+    <file defaultAction="0" language="">Dev.PQuoteClass</file>
+    <file defaultAction="0" language="">Dev.PSourceClass</file>
+    <file defaultAction="0" language="">Dev.PSourceSheet</file>
+    <file defaultAction="0" language="">Dev.PSourceTemplate</file>
+    <file defaultAction="0" language="">Dev.PSourceTemplateProvider</file>
+    <file defaultAction="0" language="">Dev.TacticClass</file>
+    <file defaultAction="0" language="">Dev.TacticSheet</file>
+    <file defaultAction="0" language="">Dev.TacticTemplate</file>
+    <file defaultAction="0" language="">Dev.TacticTemplateProvider</file>
+    <file defaultAction="0" language="">Dev.WebHome</file>
+    <file defaultAction="0" language="">Dev.WebPreferences</file>
+    <file defaultAction="0" language="">Dev.ArticleMacros.WebHome</file>
+    <file defaultAction="0" language="">Dev.AuthorMacros.WebHome</file>
+    <file defaultAction="0" language="">Dev.CategoryMacros.WebHome</file>
+    <file defaultAction="0" language="">Dev.CountMacros.WebHome</file>
+    <file defaultAction="0" language="">Dev.DisplayDocumentObjects.WebHome</file>
+    <file defaultAction="0" language="">Dev.DisplayQuote.WebHome</file>
+    <file defaultAction="0" language="">Dev.Images.WebHome</file>
+    <file defaultAction="0" language="">Dev.RandomMacros.WebHome</file>
+    <file defaultAction="0" language="">Dev.SSX.WebHome</file>
+    <file defaultAction="0" language="">Dev.Sandbox.WebHome</file>
+    <file defaultAction="0" language="">Dev.SourceMacros.WebHome</file>
+    <file defaultAction="0" language="">Dev.TacticMacros.WebHome</file>
+    <file defaultAction="0" language="">Dev.TacticMacros.WebPreferences</file>
+    <file defaultAction="0" language="">Dev.Utils.WebHome</file>
+    <file defaultAction="0" language="">FlamingoThemes.Garden</file>
+    <file defaultAction="0" language="">FlamingoThemes.Iceberg</file>
+    <file defaultAction="0" language="">Main.WebHome</file>
+    <file defaultAction="0" language="uk">Main.WebHome</file>
+    <file defaultAction="0" language="de">Main.WebHome</file>
+    <file defaultAction="0" language="ca">Main.WebHome</file>
+    <file defaultAction="0" language="pt_BR">Main.WebHome</file>
+    <file defaultAction="0" language="ru">Main.WebHome</file>
+    <file defaultAction="0" language="es">Main.WebHome</file>
+    <file defaultAction="0" language="no">Main.WebHome</file>
+    <file defaultAction="0" language="fr">Main.WebHome</file>
+    <file defaultAction="0" language="">PanelsCode.NavigationConfiguration</file>
+    <file defaultAction="0" language="">Scheduler.WebPreferences</file>
+    <file defaultAction="0" language="">Sources.WebHome</file>
+    <file defaultAction="0" language="">Sources.CNN.WebHome</file>
+    <file defaultAction="0" language="">Sources.Fox News.WebHome</file>
+    <file defaultAction="0" language="">Sources.National Review.WebHome</file>
+    <file defaultAction="0" language="">Sources.Real Clear Politics.WebHome</file>
+    <file defaultAction="0" language="">Sources.The American Spectator.WebHome</file>
+    <file defaultAction="0" language="">Sources.The Herald Sun.WebHome</file>
+    <file defaultAction="0" language="">Sources.The Hill.WebHome</file>
+    <file defaultAction="0" language="">Sources.The New York Times.WebHome</file>
+    <file defaultAction="0" language="">Sources.The Wall Street Journal.WebHome</file>
+    <file defaultAction="0" language="">Sources.Washington Examiner.WebHome</file>
+    <file defaultAction="0" language="">Sources.Washington Post.WebHome</file>
+    <file defaultAction="0" language="">Tactics.WebHome</file>
+    <file defaultAction="0" language="">Tactics.American Exceptionalism.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Appeal To A Legend.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Appeal To Non Authority.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Avoiding The Key Issue.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Beating Your Wife.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Biased Wording.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Blatant Lie.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Buttering Up.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Casual But Absurd Suggestion.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Catchy But Wrong.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Cheerleading.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Cherry Picking The Data.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Circular Argument.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Citing Refuted Data.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Clever Wording.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Code Words.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Conflating Two Different Things.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Conspiracy Theory.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Contempt.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Contradition.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Crocodile Tears.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Demonizing.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Dismissal.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Distraction.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Doesnt Follow.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Everything Old Is Good.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Example Doesnt Support The Argument.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Example Proves The Rule.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Fake Problem.WebHome</file>
+    <file defaultAction="0" language="">Tactics.False Accusation.WebHome</file>
+    <file defaultAction="0" language="">Tactics.False Dichotomy.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Filled Glass Confusion.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Gibberish.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Growing Problem.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Guessing At Actions.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Guessing At Feelings.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Guessing At Thoughts.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Guilt By Association.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Hyperbole.WebHome</file>
+    <file defaultAction="0" language="">Tactics.I Have No Answer.WebHome</file>
+    <file defaultAction="0" language="">Tactics.I See No Evidence.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Imaginary Friend.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Implausible Scenario.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Implied Assumption.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Implied Impossibility.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Including Invalid Information.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Inconsistent Wording.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Jumping To Conclusion.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Just Doesnt Follow.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Label As Argument.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Lie Of Omission.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Link Needed.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Linked Page Does Not Offer Support.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Loaded Phrase.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Major Exaggeration.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Making Something Bad Sound Good.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Making Something Good Sound Bad.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Making Things Up.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Making Up A Conversation.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Meaningless Cliche.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Metaphor Misuse.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Minor Exaggeration.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Mischaracterization.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Mislabelling.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Misleading Numbers.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Misleading Title.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Missing The Point.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Misuse of Cliche.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Naivety.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Name Calling.WebHome</file>
+    <file defaultAction="0" language="">Tactics.No, That's Real.WebHome</file>
+    <file defaultAction="0" language="">Tactics.NonSensical Argument.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Old Debunked Argument.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Overly General Rule.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Overstatement.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Overwhelming With Numbers.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Praise For Other Reason.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Predicting Self Destruction.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Predicting the Obvious.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Questionable Claim.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Questioning Motive.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Ridiculous Assertion.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Sarcasm.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Scare Quotes.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Scare Tactics.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Selective Quoting.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Self Praise.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Slippery Slope.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Smear.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Sneaky Words.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Softening Up.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Spin.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Strawman.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Switching Things Out.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Taking The Easy Path.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Telling People How They Should Be.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Thats Not Their Job.WebHome</file>
+    <file defaultAction="0" language="">Tactics.The Bad Thing Within The Good Thing.WebHome</file>
+    <file defaultAction="0" language="">Tactics.The Ends Excuse The Means.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Then Why Did You Bring It Up.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Trivializing.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Turning One Into Many.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Understatement.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Unfulfilled Promise.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Unsupported Argument.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Unsupported claim.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Unwarranted Drama.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Using The Wrong Tense.WebHome</file>
+    <file defaultAction="0" language="">Tactics.Victomhood.WebHome</file>
+    <file defaultAction="0" language="">Tactics.What Many People Think.WebHome</file>
+    <file defaultAction="0" language="">Tactics.You're Just Mad Because You Lost.WebHome</file>
+    <file defaultAction="0" language="">XWiki.Notifications.NotificationEmailDailySender</file>
+    <file defaultAction="0" language="">XWiki.Notifications.NotificationEmailHourlySender</file>
+    <file defaultAction="0" language="">XWiki.Notifications.NotificationEmailWeeklySender</file>
+  </files>
+</package>

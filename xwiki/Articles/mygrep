@@ -1,0 +1,5 @@
+find . -type f -exec sh -c '
+  for f do
+    : echo $1 "$f"
+  done
+' sh {} +

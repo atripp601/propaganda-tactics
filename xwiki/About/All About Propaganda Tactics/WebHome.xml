@@ -1,0 +1,60 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<xwikidoc version="1.3" reference="About.All About Propaganda Tactics.WebHome" locale="">
+  <web>About.All About Propaganda Tactics</web>
+  <name>WebHome</name>
+  <language/>
+  <defaultLanguage>en</defaultLanguage>
+  <translation>0</translation>
+  <creator>XWiki.atripp</creator>
+  <creationDate>1589378464000</creationDate>
+  <parent>About.WebHome</parent>
+  <author>XWiki.atripp</author>
+  <contentAuthor>XWiki.atripp</contentAuthor>
+  <date>1589378538000</date>
+  <contentUpdateDate>1589378464000</contentUpdateDate>
+  <version>10.1</version>
+  <title>All About Propaganda Tactics</title>
+  <comment>Renamed back-links.</comment>
+  <minorEdit>false</minorEdit>
+  <syntaxId>xwiki/2.1</syntaxId>
+  <hidden>true</hidden>
+  <content>= Overview =
+
+A [[Tactic>>Tactics.WebHome]]  is anything an Author unfairly does to mislead the reader.
+
+== Tactics vs. Strategies ==
+
+In general, a strategy is roughly "what you want to accomplish", while tactics are roughly "how you accomplish it". We only cover tactics, not strategies.
+
+A strategy can be good while the tactics used to implement that strategy are bad. For example, when someone says "the sky is blue because I said so", the strategy is to convince you that the sky is blue, and maybe you even find the argument persuasive. But the tactic used is not good: "because I said so" is an example of an "Appeal to Authority" tactic.
+
+== Intent ==
+
+We try never to guess the intent of the author. Doing so is itself is the [[Tactics.Guessing At Thoughts.WebHome]] tactic. Whether an author is attempting to trick the reader, or doing it inadvertently, actually doesn't matter to us.  Just the fact that the reader is likely to be tricked is the main point. Attempting to guess whether an author actually believes what he's saying is a game with no end and not much purpose.
+
+== Tactics vs. Fallacies ==
+
+Some tactics are logical fallacies, but most are not. Generally, the Tactics that involve logical fallacies are in the [[Categories.Bad Logic.WebHome]] category. 
+
+== Naming of Tactics ==
+
+We've tried to come up with memorable names for our Tactics. We avoid using difficult wording such as the Latin often used for fallacies, so we would use a term like "Attacking the Person" rather than "Ad Hominem", for example.
+
+Sometimes, the essence of a tactic is so nicely caught by a common example that we simpy use that example as the name of the tactic, such a [[Tactics.Beating Your Wife.WebHome]].
+
+== Categories ==
+
+We have chosen to group Tactics into more general Categories. For example, within the "Lie" Category, we have Tactics like "Lie of Omission", "Blatant Lie", etc. Perhaps someday, we may turn this into a more general hierarchy.
+
+== Brevity ==
+
+Each Tactic has its own page, but these pages tend to be short. For example, we could write an entire article about the history of the use of "Democrat" where "Democratic" is correct, but you can find that elsewhere on the internet.
+
+== Corrections ==
+
+What if an author someday decides to change his wording, or provides a link that was missing?  That really doesn't change things. The original article was still deceptive, and likely had a negative impact. Our goal here is to simply chronicle, categorize, and analyze the techniques. Having authors actually fix them is not on our radar. But if they do, of course, that's great.
+
+== Specificity ==
+
+How specific should we get in coming up with Tactics? Should we have a "Democrat As Adjective" Tactic, since it's so common, or just use the more general "Biased Wording"?  There is no hard-and-fast rule here. Time will tell.</content>
+</xwikidoc>

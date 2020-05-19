@@ -1,0 +1,77 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<xwikidoc version="1.3" reference="Dev.TacticSheet" locale="">
+  <web>Dev</web>
+  <name>TacticSheet</name>
+  <language/>
+  <defaultLanguage>en</defaultLanguage>
+  <translation>0</translation>
+  <creator>XWiki.atripp</creator>
+  <creationDate>1588880922000</creationDate>
+  <parent>WebHome</parent>
+  <author>XWiki.atripp</author>
+  <contentAuthor>XWiki.atripp</contentAuthor>
+  <date>1589386179000</date>
+  <contentUpdateDate>1589386179000</contentUpdateDate>
+  <version>20.1</version>
+  <title>#if($doc.documentReference.name == 'TacticSheet')Tactic Sheet#{else}$services.display.title($doc, {'displayerHint': 'default', 'outputSyntaxId': 'plain/1.0'})#end</title>
+  <comment/>
+  <minorEdit>false</minorEdit>
+  <syntaxId>xwiki/2.1</syntaxId>
+  <hidden>true</hidden>
+  <content>{{include page="Dev/DisplayQuote"/}}&#xd;
+&#xd;
+{{include page="Dev/ArticleMacros"/}}&#xd;
+&#xd;
+{{velocity}}&#xd;
+#set($tactic = $doc.getObject('Dev.TacticClass'))&#xd;
+#set($currentTacticName = $tactic.getProperty('name').getValue())&#xd;
+#set ($category = $tactic.getProperty('category').getValue())&#xd;
+(% id="top" style="display: flex;"%)&#xd;
+(((&#xd;
+(% id="left" style="" %)&#xd;
+(((&#xd;
+= Description = $tactic.display('description', 'view')&#xd;
+= Example = $tactic.display('example', 'view')&#xd;
+(((= Usages =&#xd;
+## Find ALL Articles:&#xd;
+#getAllArticles()&#xd;
+#set ($allDocs = $returnedDocuments)&#xd;
+#foreach ($d in $allDocs)&#xd;
+  ## foreach quote on the article page, if the quote has this tactic, show it:&#xd;
+  #set ($quotes = $d.getObjects('Dev.PQuoteClass'))&#xd;
+  #if ($quotes)&#xd;
+    #foreach ($quote in $quotes)&#xd;
+      #set ($tactics = $quote.getProperty('tactics').getValue())&#xd;
+      #foreach ($t in $tactics)&#xd;
+      ##T: $t class: $t.class $currentTacticName&#xd;
+        #if ($t == $currentTacticName)&#xd;
+           ## find the one-and-only instance of PArticleClass in the document to get the title&#xd;
+           #set ($article = $d.getObject('Dev.PArticleClass'))&#xd;
+           #set ($title = $article.getProperty('title').getValue())&#xd;
+           from article: [[Articles.$title]]&#xd;
+           #displayQuote($quote)&#xd;
+        #end&#xd;
+      #end&#xd;
+    #end&#xd;
+  #end&#xd;
+#end&#xd;
+)))&#xd;
+&#xd;
+## End of left column&#xd;
+)))&#xd;
+&#xd;
+## start of infobox on right&#xd;
+(% id="infobox" style="width:30em; text-align: center" %)&#xd;
+(((&#xd;
+{{box}}&#xd;
+(% style="colspan=2 %)&#xd;
+**Tactic&#xd;
+|**Name:**|$tactic.display('name', 'view')&#xd;
+|**Category:**|[[Categories.$category]]&#xd;
+{{/box}}&#xd;
+## end of infobox&#xd;
+)))&#xd;
+&#xd;
+## end of top&#xd;
+))){{/velocity}}</content>
+</xwikidoc>
